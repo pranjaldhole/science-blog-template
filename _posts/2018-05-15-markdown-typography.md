@@ -11,7 +11,7 @@ code. The Markdown files have extension `.md` or `.markdown`.
 
 ## Image
 ### Inserting local image
-![Evolutionary cycle]({{"img/monk.svg" | prepend: site.baseurl }}){:height="50%" width="50%"}
+![Zen]({{"img/logo.svg" | prepend: site.baseurl }}){:height="50%" width="50%"}
 
 {% highlight html %}
 ![Img-Text](/path/to/img.svg){:height="50%" width="50%"}
@@ -21,7 +21,7 @@ code. The Markdown files have extension `.md` or `.markdown`.
 
 ### Inserting image from URLs
 {% highlight html %}
-![Img-Text](https://address2/img/monk.svg)
+![Img-Text](https://address/to/img.svg)
 {% endhighlight %}
 
 ## Inserting URLs
