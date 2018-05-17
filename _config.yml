@@ -1,0 +1,42 @@
+# Site settings
+title: Science and Technology Blog
+description: "Blog site for scientific/technical pages."
+url: "https://pranjaldhole.github.io/science-blog-template"
+author:
+  name: "Pranjal Dhole"
+  email: "dhole.pranjal@gmail.com"
+  url: "https://pranjaldhole.github.io"
+
+# Build settings
+baseurl: /science-blog-template/
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+genre: "Science and Technology Blog" # Blog genre
+version: "0.0.1"    # Blog site version
+
+# Disqus comments
+comments: true      # used to enable disqus comments on site
+dsq_shortname: science-blog-template # disqus shortname
+
+# Options: Define which header/footer to use
+custom_header: false
+custom_nav_footer: false
+reverse: false
+
+# Plugins
+plugins:
+  - jekyll-paginate
