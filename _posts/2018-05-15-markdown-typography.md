@@ -11,17 +11,16 @@ code. The Markdown files have extension `.md` or `.markdown`.
 
 ## Image
 ### Inserting local image
-![Zen]({{"img/logo.svg" | prepend: site.baseurl }}){:height="50%" width="50%"}
+![]({{"img/logo.svg" | prepend: site.baseurl }}){:height="50%" width="50%"}
 
 {% highlight html %}
 ![Img-Text](/path/to/img.svg){:height="50%" width="50%"}
 {% endhighlight %}
 
-> This is a blockquote
-
 ### Inserting image from URLs
+![](https://pranjaldhole.github.io/research/evolution.jpg){:height="40%" width="40%"}
 {% highlight html %}
-![Img-Text](https://address/to/img.svg)
+![Img-Text](https://address/to/img.png){:height="40%" width="40%"}
 {% endhighlight %}
 
 ## Inserting URLs

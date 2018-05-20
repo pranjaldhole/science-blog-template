@@ -132,7 +132,7 @@
   	display: block;
   }
   h1 {
-  	font-family: 'Signika', sans-serif; //Emerald logo font
+  	font-family: 'Signika', sans-serif;
     font-weight: 600;
   }
   &:after {
@@ -195,13 +195,13 @@ img {
           border-radius: 4px;
 }
 
-img[title="Monk"] {
+img[title="logo"] {
     box-shadow: 0 15px 15px #ddd;
   }
 
 code {
   color: lighten($text-color, 35%);
-  background-color: lighten($background-color, 35%);
+  background-color: $code-bg;
 }
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
