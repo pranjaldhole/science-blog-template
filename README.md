@@ -1,4 +1,4 @@
-# Science and Technology Blog template
+# Science and Technology Blog template <img align="right" width="150" height="100" src="img/logo.svg">
 
 ## Installation instructions
 
