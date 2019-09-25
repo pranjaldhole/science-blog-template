@@ -26,7 +26,7 @@ defaults:
 
 # Custom variables
 genre: "Science and Technology Blog" # Blog genre
-version: "0.0.1"    # Blog site version
+version: "1.0.0"    # Blog site version
 
 # Disqus comments
 comments: true      # used to enable disqus comments on site

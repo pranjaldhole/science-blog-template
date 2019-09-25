@@ -17,8 +17,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
 $main-color: #0e71a3;
 $background-color: #FDFDFD;
 $text-color: #222222;
-$code-color: #283747;
-$code-bg: #F0EFF0;
+$footer-bg: #F0EFF0;
 
 /*- Base settings -*/
 
@@ -26,6 +25,7 @@ html {
 	background-color: $background-color;
 	font-size: 16px;
 	@media (min-width: 940px) {
+		width: 100%;
 		font-size: 18px;
 	}
 	line-height: 1.5;

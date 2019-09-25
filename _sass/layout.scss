@@ -6,7 +6,7 @@
   a {
     display: block;
     color: $background-color;
-    padding: 0.33334em 0;
+    padding: 0.3em 0;
     font-size: 1.5em;
     font-weight: 400;
     @media (min-width: 940px) {
@@ -32,11 +32,11 @@
 /* Toggle class to open menu */
 
 #nav.menu-open {
-  @include open(-14rem);
+  @include open(-20%);
 }
 
 #nav-left.menu-open-left {
-  @include open(14rem);
+  @include open(20%);
 }
 
 /* Separator after menu */
@@ -44,9 +44,9 @@
 #nav-list:after {
   display: block;
   content: '';
-  width: 5rem;
+  width: 20%;
   height: 1px;
-  margin: 23px auto;
+  margin: 23px 10px;
   background-color: $background-color;
 }
 
@@ -113,7 +113,7 @@
 
 #container {
 	margin:0 auto;
-	max-width: 730px;
+	max-width: 40%;
 	padding: 0 1.5rem;
 }
 
@@ -201,7 +201,6 @@ img[title="logo"] {
 
 code {
   color: lighten($text-color, 35%);
-  background-color: $code-bg;
 }
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
@@ -248,7 +247,7 @@ code {
 /* Footer */
 
 footer {
-  background-color: $code-bg;
+  background-color: $footer-bg;
   color: $main-color;
   text-align: center;
   padding: 8px 8px;

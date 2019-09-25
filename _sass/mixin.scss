@@ -23,12 +23,12 @@
 }
 
 @mixin nav-position($position) {
-	width: 14rem;
+	width: 20%;
   position: fixed;
   background-color: $main-color;
   top: 0;
   bottom: 0;
-  #{$position}: -14rem;
+  #{$position}: -20%;
   color: $background-color;
   opacity: 0.95;
   -webkit-transition: all 0.3s ease-in;
@@ -36,6 +36,6 @@
       -ms-transition: all 0.3s ease-in;
           transition: all 0.3s ease-in;
   z-index: 1;
-  padding: 72px 0;
-  text-align: center;
+  padding: 72px 20px;
+  text-align: left;
 }

@@ -13,25 +13,25 @@ code. The Markdown files have extension `.md` or `.markdown`.
 ### Inserting local image
 ![]({{"img/logo.svg" | prepend: site.baseurl }}){:height="50%" width="50%"}
 
-{% highlight html %}
+{% highlight markdown %}
 ![Img-Text](/path/to/img.svg){:height="50%" width="50%"}
 {% endhighlight %}
 
 ### Inserting image from URLs
 ![](https://pranjaldhole.github.io/research/evolution.jpg){:height="40%" width="40%"}
-{% highlight html %}
+{% highlight markdown %}
 ![Img-Text](https://address/to/img.png){:height="40%" width="40%"}
 {% endhighlight %}
 
 ## Inserting URLs
 Similar way external urls can be inserted like [this](http://www.example.com).
-{% highlight html %}
+{% highlight markdown %}
 [this](http://www.example.com)
 {% endhighlight %}
 
 ## Headers
 
-{% highlight html %}
+{% highlight markdown %}
  # This is a <h1> tag.
  ## This is a <h2> tag.
  <h3>, <h4>, <h5> and <h6> have the same style.
