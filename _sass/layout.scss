@@ -32,11 +32,11 @@
 /* Toggle class to open menu */
 
 #nav.menu-open {
-  @include open(-20%);
+  @include open(-25%);
 }
 
 #nav-left.menu-open-left {
-  @include open(20%);
+  @include open(25%);
 }
 
 /* Separator after menu */
@@ -78,7 +78,7 @@
     top: -8px;
   }
   &:after {
-    top: 4px;
+    top: 8px;
   }
   &.btn-close {
     background: none;
