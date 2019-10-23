@@ -26,7 +26,7 @@ defaults:
 
 # Custom variables
 genre: "Science and Technology Blog" # Blog genre
-version: "1.0.0"    # Blog site version
+version: "1.0.1"    # Blog site version
 
 # Disqus comments
 comments: true      # used to enable disqus comments on site
@@ -36,6 +36,9 @@ dsq_shortname: science-blog-template # disqus shortname
 custom_header: false
 custom_nav_footer: false
 reverse: false
+
+# Options: Visualizations
+pygments: true
 
 # Plugins
 plugins:

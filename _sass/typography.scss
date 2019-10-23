@@ -58,6 +58,21 @@ code {
   font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
 }
 
+p > code,
+  li > code {
+    font-size: 85%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    background-color: #ffed4e;
+    color: #586e75;
+  
+    &::before,
+    &::after {
+      letter-spacing: -0.8em;
+      content: "\00a0";
+    }
+  }
+
 /*- Typography for big screen, based on 18px font-size -*/
 
 @media (min-width: 940px) { //Breakpoint set to 940px
