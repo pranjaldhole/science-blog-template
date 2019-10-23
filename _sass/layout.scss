@@ -62,7 +62,7 @@
 
 #menu {
   height: 4px;
-  width: 1.5em;
+  width: 2.5em;
   background-color: lighten($text-color, 35%);
   margin-top: 8px;
   &:after, &:before {
@@ -70,7 +70,7 @@
     display: block;
     position: relative;
     height: 4px;
-    width: 1.5em;
+    width: 2.5em;
     background-color: lighten($text-color, 35%);
     transition: all 0.3s ease-in;
   }
@@ -78,7 +78,7 @@
     top: -8px;
   }
   &:after {
-    top: 4px;
+    top: 8px;
   }
   &.btn-close {
     background: none;
