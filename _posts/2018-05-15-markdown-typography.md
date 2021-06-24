@@ -18,7 +18,7 @@ code. The Markdown files have extension `.md` or `.markdown`.
 {% endhighlight %}
 
 ### Inserting image from URLs
-![](https://pranjaldhole.github.io/research/evolution.jpg){:height="40%" width="40%"}
+![](https://pranjaldhole.github.io/images/evolution.jpg){:height="40%" width="40%"}
 {% highlight markdown %}
 ![Img-Text](https://address/to/img.png){:height="40%" width="40%"}
 {% endhighlight %}
